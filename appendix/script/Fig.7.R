@@ -6,7 +6,7 @@ xlim_all <- c(15,30,120,200,400)
 ms <-readRDS(file = "result_Model_para.obj")
 for(z in 3)
 {
-	pdf(paste("fig/Fig.9_",ph_all[z],".pdf",sep=""),width=11,height=13.6)
+	pdf(paste("fig/Fig.7_",ph_all[z],".pdf",sep=""),width=11,height=13.6)
 	par(mfrow=c(4,3),lwd=1.5,mar = c(4.5,4.5,1,1),oma=c(2,2,2,2),ps = 16)
 	library(MASS)
 	min <- 0.025
