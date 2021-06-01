@@ -1,6 +1,6 @@
 #setwd("~appendix")
 ms <-readRDS(file = "result_nonparametric.obj")
-pdf("fig/Fig.4.pdf", width = 11, height = 6.8)
+pdf("fig/Fig.2.pdf", width = 11, height = 6.8)
 par(mfrow = c(2, 3), lwd = 1.5, mar = c(4.5, 4.5, 1, 1), oma = c(2, 2, 2, 2), ps = 16)
 library(MASS)
 min <- 0.025
