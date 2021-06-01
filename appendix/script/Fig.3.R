@@ -44,6 +44,6 @@ for(j in 1:(N_col-1)) {
   }
 }
 
-cairo_pdf(file = 'fig/Fig.5.pdf' , w = 5 , h = 4 )
+cairo_pdf(file = 'fig/Fig.3.pdf' , w = 5 , h = 4 )
 print(ggp , left = 0.3 , bottom = 0.3, file = NULL)
 dev.off()
