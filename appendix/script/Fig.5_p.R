@@ -18,7 +18,7 @@ pH3.0=ms$e[,11]*3.0+ms$f[,11], pH3.2=ms$e[,11]*3.2+ms$f[,11], pH3.4=ms$e[,11]*3.
 )
 
 #plot
-pdf("fig/Fig.7_p.pdf",width=14,height=4)
+pdf("fig/Fig.5_p.pdf",width=14,height=4)
 par(ps = 12)
 boxplot(list,ylab=expression(paste(ln(p))),ylim=c(-2,3),las=2)
 dev.off()
