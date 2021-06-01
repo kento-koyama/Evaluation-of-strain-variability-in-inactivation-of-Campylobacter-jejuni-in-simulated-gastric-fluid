@@ -31,7 +31,7 @@ for(i in seq(0,15,1)){
   max_y_base <- quantile(y_base, probs=max)
   max_y <- as.numeric(max_y)
   max_y_base <- as.numeric(max_y_base)
-  med_y <- median(y)
+  med_y <- median(y_base)
   d_mcmc <- data.frame(time=i, min_y, max_y, med_y, min_y_base, max_y_base)
   alld_mcmc <- rbind(alld_mcmc, d_mcmc)
 }
@@ -76,7 +76,7 @@ for(i in seq(0,30,2)){
   max_y_base <- quantile(y_base, probs=max)
   max_y <- as.numeric(max_y)
   max_y_base <- as.numeric(max_y_base)
-  med_y <- median(y)
+  med_y <- median(y_base)
   d_mcmc <- data.frame(time=i, min_y, max_y, med_y, min_y_base, max_y_base)
   alld_mcmc <- rbind(alld_mcmc, d_mcmc)
 }
@@ -123,7 +123,7 @@ for(i in seq(0,120,8)){
   max_y_base <- quantile(y_base, probs=max)
   max_y <- as.numeric(max_y)
   max_y_base <- as.numeric(max_y_base)
-  med_y <- median(y)
+  med_y <- median(y_base)
   d_mcmc <- data.frame(time=i, min_y, max_y, med_y, min_y_base, max_y_base)
   alld_mcmc <- rbind(alld_mcmc, d_mcmc)
 }
@@ -168,7 +168,7 @@ for(i in seq(0,200,10)){
   max_y_base <- quantile(y_base, probs=max)
   max_y <- as.numeric(max_y)
   max_y_base <- as.numeric(max_y_base)
-  med_y <- median(y)
+  med_y <- median(y_base)
   d_mcmc <- data.frame(time=i, min_y, max_y, med_y, min_y_base, max_y_base)
   alld_mcmc <- rbind(alld_mcmc, d_mcmc)
 }
@@ -213,7 +213,7 @@ for(i in seq(0,400,20)){
   max_y_base <- quantile(y_base, probs=max)
   max_y <- as.numeric(max_y)
   max_y_base <- as.numeric(max_y_base)
-  med_y <- median(y)
+  med_y <- median(y_base)
   d_mcmc <- data.frame(time=i, min_y, max_y, med_y, min_y_base, max_y_base)
   alld_mcmc <- rbind(alld_mcmc, d_mcmc)
 }
