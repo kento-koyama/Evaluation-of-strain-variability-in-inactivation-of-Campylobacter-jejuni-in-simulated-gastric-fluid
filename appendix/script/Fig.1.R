@@ -14,7 +14,7 @@ list = list(pH3.0 = log_d_3.0,
 			pH3.6 = log_d_3.6, 
 			pH3.8 = log_d_3.8)
 #plot
-pdf("fig/Fig.3_d.pdf", width = 4, height = 4)
+pdf("fig/Fig.1_d.pdf", width = 4, height = 4)
 par(ps = 12)
 boxplot(list, ylab = expression(paste(ln(delta))), ylim = c(0, 7), las = 2)
 dev.off()
@@ -32,7 +32,7 @@ list = list(pH3.0 = log_p_3.0,
 			pH3.6 = log_p_3.6, 
 			pH3.8 = log_p_3.8)
 #plot
-pdf("fig/Fig.3_p.pdf", width = 4, height = 4)
+pdf("fig/Fig.1_p.pdf", width = 4, height = 4)
 par(ps = 12)
 boxplot(list, ylab = expression(paste(ln(p))), ylim = c(-2, 3), las = 2)
 dev.off()
